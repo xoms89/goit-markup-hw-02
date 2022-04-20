@@ -1,0 +1,23 @@
+:root {
+    /* =====Цвета===== */
+
+    /* Цвет основного текста */
+    --primari-text-color: #757575;
+    /* цвет заголовков */
+    --primari-title-color: #212121;
+    /* акцентный цвет */
+    --accent-color: #2196F3;
+    /* акцентный цвет текста */
+    --accent-text-color: #ffffff;
+    /* фоновый цвет */
+    --background-color: #2F303A;
+
+    /* =====Шрифты===== */
+
+    /* Шрифт логотипа */
+    --font-logo: 'Raleway';
+    --font-logo-wight: 700;
+
+    /* Основной шрифт */
+    --font-main: 'Roboto';
+}
