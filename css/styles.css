@@ -28,6 +28,7 @@
 
 body {
     font-family: var(--font-main);
+    color: var(--primari-text-color);
     }
 
 a {
@@ -37,6 +38,8 @@ a {
 ul {
     list-style: none;
 }
+
+/* ===============index.html=============== */
 
 /* heder */
 
@@ -84,6 +87,7 @@ ul {
 .hero-button {
     background-color: var(--accent-color);
     color: var(--accent-text-color);
+    cursor: pointer;
 }
 
 /* DIGNITY */
@@ -99,7 +103,46 @@ ul {
 }
 
 .list-text{
+    font-weight: 400;
+}
+
+/* OUR-WORK */
+
+.section-title{
+    color: var(--primari-title-color);
+    font-weight: 700;
+}
+
+/* OUR-TEEM */
+
+.text-title{
+    color: var(--primari-title-color);
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--background-color);
+}
+.logo-color-footer{
+    color: var(--accent-text-color);
+}
+address {
+    font-style: normal;
+}
+.address-company{
+    color: var(--accent-text-color);
+}
+.contact-link-footer{
     color: var(--primari-text-color);
     font-weight: 400;
 }
 
+.contact-link-footer:hover,
+.contact-link-footer:focus{
+    color: var(--accent-color);
+}
+
+
+/* ===============portfolio.html=============== */
