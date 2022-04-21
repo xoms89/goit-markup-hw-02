@@ -92,7 +92,7 @@ ul {
 
 /* DIGNITY */
 
-.dignity-title {
+.hidden-title {
     display: none;
 }
 
@@ -146,3 +146,25 @@ address {
 
 
 /* ===============portfolio.html=============== */
+
+.filter-button{
+    font-family: var(--font-main);
+    color: var(--primari-title-color);
+    font-weight: 500;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+.list-text-portfolio{
+    color: var(--primari-text-color);
+}
+
+.list-title-portfolio{
+    color: var(--primari-title-color);
+    font-weight: 700;
+}
