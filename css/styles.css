@@ -15,9 +15,91 @@
     /* =====Шрифты===== */
 
     /* Шрифт логотипа */
-    --font-logo: 'Raleway';
+    --font-logo: 'Raleway',
+    sans-serif;
     --font-logo-wight: 700;
 
     /* Основной шрифт */
-    --font-main: 'Roboto';
+    --font-main: 'Roboto',
+    'Verdana',
+    'Tahoma',
+    sans-serif;
 }
+
+body {
+    font-family: var(--font-main);
+    }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* heder */
+
+.logo {
+    font-family:var(--font-logo) ;
+    font-weight: var(--font-logo-wight);
+    color: var(--accent-color);
+}
+
+.logo-color-header {
+    color: var(--primari-title-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--primari-title-color);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-active{
+    color: var(--accent-color);
+}
+
+.contact-link{
+    color: var(--primari-text-color);
+}
+
+.contact-link:hover, .contact-link:focus{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero{
+    background-color: var(--background-color);
+}
+.hero-title{
+    color: var(--accent-text-color);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+}
+
+/* DIGNITY */
+
+.dignity-title {
+    display: none;
+}
+
+.dignity-list-title{
+    color: var(--primari-title-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-text{
+    color: var(--primari-text-color);
+    font-weight: 400;
+}
+
