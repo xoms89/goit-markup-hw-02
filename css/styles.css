@@ -11,6 +11,8 @@
     --accent-text-color: #ffffff;
     /* фоновый цвет */
     --background-color: #2F303A;
+    /* контакты футер */
+    --contact-link-footer-color: rgba(255, 255, 255, 0.6)
 
     /* =====Шрифты===== */
 
@@ -151,14 +153,14 @@ footer {
 }
 address {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.714;
 }
 .address-company{
     color: var(--accent-text-color);
 }
 .contact-link-footer{
-    color: var(--primari-text-color);
+    color: var(--contact-link-footer-color);
     }
 
 .contact-link-footer:hover,
@@ -182,6 +184,11 @@ address {
     background-color: var(--accent-color);
     color: var(--accent-text-color);
     cursor: pointer;
+}
+
+.activ-button{
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
 }
 
 .list-text-portfolio{
