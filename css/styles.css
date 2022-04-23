@@ -109,6 +109,12 @@ ul {
     display: none;
 }
 
+.visually-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+
 .dignity-list-title{
     color: var(--primari-title-color);
     text-transform: uppercase;
